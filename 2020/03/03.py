@@ -44,4 +44,3 @@ if __name__ == "__main__":
                 treesHitInTobogganPaths[i] = treesHitInTobogganPaths[i] + 1
         print("trees hit for path (%d, %d): %d" % (path[0], path[1], treesHitInTobogganPaths[i]))
     print("product: %d" % product(*treesHitInTobogganPaths))
-    

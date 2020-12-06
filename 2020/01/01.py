@@ -23,12 +23,12 @@ if __name__ == "__main__":
     formattedLines = formatInput(lines)
 
     for i in range(len(formattedLines)):
-        for j in range(i, len(formattedLines)):
+        for j in range(i + 1, len(formattedLines)):
             if is2020(formattedLines[i], formattedLines[j]):
                 print(product(formattedLines[i], formattedLines[j]))
 
     for i in range(len(formattedLines)):
-        for j in range(i, len(formattedLines)):
-            for k in range(i + j, len(formattedLines)):
+        for j in range(i + 1, len(formattedLines)):
+            for k in range(j + 1, len(formattedLines)):
                 if is2020(formattedLines[i], formattedLines[j], formattedLines[k]):
                     print(product(formattedLines[i], formattedLines[j], formattedLines[k]))
