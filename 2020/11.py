@@ -107,9 +107,6 @@ if __name__ == "__main__":
             break
         else:
             seatingArrangement = newSeatingArrangement
-        #print()
-        #for line in newSeatingArrangement:
-        #    print(line)
     print()
     print("occupied seats:", noOfOccupiedSeats(seatingArrangement))
 
@@ -121,8 +118,5 @@ if __name__ == "__main__":
             break
         else:
             seatingArrangement = newSeatingArrangement
-        #print()
-        #for line in newSeatingArrangement:
-        #    print(line)
     print()
     print("occupied seats:", noOfOccupiedSeats(seatingArrangement))
